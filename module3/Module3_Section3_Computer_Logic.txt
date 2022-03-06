@@ -1,0 +1,21 @@
+Module3_Section3_Computer_Logic
+
+Computer Logic
+
+and => conjuction
+   --Binary Operator
+   --Priority that is lower than the one expressed by the comparison operators
+   
+or => disjunction
+   --binary Operator
+   --lower priority than "and"
+
+not => turns truth into
+   --unary operator performing a logical negation
+
+Bitwise operators
+    & (ampersand) - bitwise conjunction;
+    | (bar) - bitwise disjunction;
+    ~ (tilde) - bitwise negation;
+    ^ (caret) - bitwise exclusive or (xor).
+
