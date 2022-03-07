@@ -1,6 +1,4 @@
-my_list = [1, 2, "in", True, "ABC"]
-
-print(1 in my_list)  # outputs True
-print("A" not in my_list)  # outputs True
-print(3 not in my_list)  # outputs True
-print(False in my_list)  # outputs False
+n = int(input("How many squares of two do you want to see: "))
+twos = [2 ** i for i in range(n)]
+twos.reverse()
+print(twos[:])
