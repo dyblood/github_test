@@ -18,5 +18,3 @@ adding(3, c=1, b=2) #combination of keyword and positional
 
 ###adding(c=1, 3, 4) #NOTE: keyword argument CAN NOT go before positional arguments
                      # The one unbreakable rule
-
-
