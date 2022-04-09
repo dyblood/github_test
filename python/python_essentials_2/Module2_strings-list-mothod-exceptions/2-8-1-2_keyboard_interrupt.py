@@ -1,0 +1,20 @@
+# 2.8.1.2 - KeyboardInterrupt
+
+# KeyboardInterrupt
+    # Location: BaseException <- KeyboardInterrupt
+     # A concrete exception raised when the user uses a keyboard shortcut designed
+     # designed to terminate a programs execution
+# This code cannot be terminated
+# by pressing Ctrl-C.
+
+from time import sleep
+
+seconds = 0
+
+while True:
+    try:
+        print(seconds)
+        seconds += 1
+        sleep(1)
+    except KeyboardInterrupt:
+        print("Don't do that!")

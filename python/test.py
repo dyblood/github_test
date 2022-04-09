@@ -1,5 +1,20 @@
 # This file is used to test random codes
-s1 = '12.8'
-i = int(float(s1))
+from sys import dont_write_bytecode
 
-print(i)
+
+st1 = "donor"
+str2 = "Nabucodonosor"
+found = True
+start = 0
+
+
+for ch in str2:
+    pos = str2.find(ch , start)
+    if pos <0:
+        found = False
+        break
+    start = pos + 1
+if found:
+    print("Yes")
+else:
+    print("No")
